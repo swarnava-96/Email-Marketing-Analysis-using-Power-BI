@@ -1,11 +1,13 @@
 # Email-Marketing-Analysis-using-Power-BI
 
-### Aim:
+### Aim: To create an interactive dashboard showing the various KPI's of Email Campaigns for an ecommerce comapany. 
 
-### About the Data set:
+### About the Data set: 
+The dataset,Email Campaign Analysis.xlsx consists of five excel sheets namely, "TBL_Communication", "TBLCustomerProfieData", "TBL_SalesData", "TBL_CampaignS" and "TBL_CouponData". Out of these five sheets I have taken the "TBL_Communication" sheet and imported into Power BI Desktop. The enitire analysis is carried on with this table or sheet only. The table contains various columns or features like "CampaignCodJ", "Medium_Type", "Is_Email_Sent", "Email_Sent_Status", "Email_SentDate", "Email_Open_Count", "Email_Click_Count", "Is_SMS_Sent" and "SMS_SentDate". The datatypes of each feature is ether categorical or strings.
 
-### Project Description:
-
+### Project Description: 
+An extensive exploratory data analysis was performed, new columns were created using DAX measures and few new measeures were also calculated with he help of DAX.
+Slicers for Campaign Code, Year, Month and Day of Email Sent was created by extracting the Month and Day from the "Email_SentDate" feature using filters.
 
 The Following are the important DAX measures that were applied throughout the entire project:
 
@@ -50,6 +52,9 @@ The Following are the important DAX measures that were applied throughout the en
 12. New column was created for extracting the month and year applying the DAX measure: 
 
 ```Month_Year = CONCATENATE(CONCATENATE(FORMAT(TBL_Communication[Email_SentDate],"mmm"), "-"),YEAR(TBL_Communication[Email_SentDate]))```
+
+Clustered column chart was made putting "Month_Year" as axis and "is_email_sent" as value.  Finally, a table at the bottom was added to show all the feature values in details.
+
 
 
 ### A Glimpse of the Dashboard
