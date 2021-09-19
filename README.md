@@ -57,6 +57,11 @@ Clustered column chart was made putting "Month_Year" as axis and "is_email_sent"
 
 
 
-### A Glimpse of the Dashboard
+### A Glimpse of the Dashboard:
 
 ![Screenshot (174)](https://user-images.githubusercontent.com/75041273/133941108-c6ee113b-7a78-4a98-8d63-fa8b32c65d5f.png)
+
+### Tech Stack:
+
+<img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black"/> 
+
