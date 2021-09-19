@@ -4,7 +4,7 @@ The Following are the important DAX measures that were applied throughout the en
 
 1. Click Rate (CTR) = (Emails clicked) / (Emails sent) - (Bounces)
 
-``CTR = SUM(TBL_Communication[Email_Click_Count])/(SUM(TBL_Communication[Is_Email_Sent])-SUM(TBL_Communication[Bounced_email]))```
+```CTR = SUM(TBL_Communication[Email_Click_Count])/(SUM(TBL_Communication[Is_Email_Sent])-SUM(TBL_Communication[Bounced_email]))```
 
 2. Bounce Rate (BR) = ((Bounced Emails) / (Sent Emails)) *  100
 
