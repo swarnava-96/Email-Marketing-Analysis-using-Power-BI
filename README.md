@@ -1,5 +1,12 @@
 # Email-Marketing-Analysis-using-Power-BI
 
+### Aim:
+
+### About the Data set:
+
+### Project Description:
+
+
 The Following are the important DAX measures that were applied throughout the entire project:
 
 1. Click Rate (CTR) = (Emails clicked) / (Emails sent) - (Bounces)
