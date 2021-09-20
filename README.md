@@ -55,7 +55,7 @@ The Following are the important DAX measures that were applied throughout the en
 
 Clustered column chart was made putting "Month_Year" as axis and "is_email_sent" as value.  Finally, a table at the bottom was added to show all the feature values in details.
 
-## Installation:
+### Installation:
 
 The following steps will guide you to install Power BI Desktop and run the project at your local machine:
 
