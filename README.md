@@ -1,6 +1,6 @@
 # Email-Marketing-Analysis-using-Power-BI
 
-### Aim: To create an interactive dashboard showing the various KPI's of Email Campaigns for an ecommerce comapany. 
+### Aim: To create an interactive dashboard showing the various KPI's of Email Campaigns for an ecommerce company. 
 
 ### About the Data set: 
 The dataset,Email Campaign Analysis.xlsx consists of five excel sheets namely, "TBL_Communication", "TBLCustomerProfieData", "TBL_SalesData", "TBL_CampaignS" and "TBL_CouponData". Out of these five sheets I have taken the "TBL_Communication" sheet and imported into Power BI Desktop. The enitire analysis is carried on with this table or sheet only. The table contains various columns or features like "CampaignCodJ", "Medium_Type", "Is_Email_Sent", "Email_Sent_Status", "Email_SentDate", "Email_Open_Count", "Email_Click_Count", "Is_SMS_Sent" and "SMS_SentDate". The datatypes of each feature is ether categorical or strings.
